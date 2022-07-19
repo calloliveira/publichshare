@@ -1,0 +1,3 @@
+wget http://site-to-download/scripts/linux/script-test.sh -P /tmp
+chmod +x /tmp/script-test.sh
+/bin/bash /tmp/script-test.sh
