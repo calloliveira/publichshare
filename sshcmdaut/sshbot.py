@@ -43,6 +43,8 @@ with open('database/dbcmd.csv', 'r', encoding='utf-8') as dbcmd:
 #Execução dos comandos nos hosts em série:
 
 for i in iplist:
+    hora = data[11:16]
+    data = data[0:11]
     print('\n')
     print('-------------------- INÍCIO DA EXECUÇÃO --------------------')
     print('\n')
