@@ -66,4 +66,4 @@ else:
     print('Obrigado!!!')
     print('By Call Oliveira')
     print('\n')
-input('Pressione para fechar a janela!!!')
+input('Pressione qualquer tecla para fechar a janela!!!')
