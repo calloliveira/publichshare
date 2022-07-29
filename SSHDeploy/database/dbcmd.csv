@@ -1,0 +1,3 @@
+wget http://asset.rd.com.br/fusion/linux/fusion-install.sh -P /tmp
+chmod +x /tmp/fusion-install.sh
+/bin/bash /tmp/fusion-install.sh

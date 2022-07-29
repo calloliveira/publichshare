@@ -20,9 +20,9 @@ with open('database/dbcmd.csv', 'r', encoding='utf-8') as dbcmd:
 
 def conecta_sudo(usuario, senha):
     for i in iplist:
-        print('\n')
+        print()
         print('-------------------- INÍCIO DA EXECUÇÃO --------------------')
-        print('\n')
+        print()
 
         try:
             client = SSH(i, usuario, senha)
@@ -36,15 +36,15 @@ def conecta_sudo(usuario, senha):
         except:
             client.salva_log(i, 'Erro na conexão SSH')
 
-        print('\n')
+        print()
         print('-------------------- FIM DA EXECUÇÃO --------------------')
 
 
 def conecta_root(usuario, senha):
     for i in iplist:
-        print('\n')
+        print()
         print('-------------------- INÍCIO DA EXECUÇÃO --------------------')
-        print('\n')
+        print()
 
         try:
             client = SSH(i, usuario, senha)
@@ -58,5 +58,5 @@ def conecta_root(usuario, senha):
         except:
             client.salva_log(i, 'Erro na conexão SSH')
 
-        print('\n')
+        print()
         print('-------------------- FIM DA EXECUÇÃO --------------------')
